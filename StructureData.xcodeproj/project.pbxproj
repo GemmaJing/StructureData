@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6DD7C81F9A50E10017EBD6 /* foodInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD7C71F9A50E10017EBD6 /* foodInfo.swift */; };
+		CE6DD7CF1F9AAD620017EBD6 /* searchDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD7CE1F9AAD620017EBD6 /* searchDatabase.swift */; };
 		CEBC7F641F92C00A00CD17C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC7F631F92C00A00CD17C5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CEBC7F5E1F92C00A00CD17C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
@@ -23,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE093E501F9E5A570015176F /* datasetJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datasetJSON.json; sourceTree = "<group>"; };
+		CE6DD7C71F9A50E10017EBD6 /* foodInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodInfo.swift; sourceTree = "<group>"; };
+		CE6DD7CE1F9AAD620017EBD6 /* searchDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchDatabase.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		CEBC7F601F92C00A00CD17C5 /* StructureData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StructureData; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBC7F631F92C00A00CD17C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				CEBC7F631F92C00A00CD17C5 /* main.swift */,
+				CE093E501F9E5A570015176F /* datasetJSON.json */,
+				CE6DD7C71F9A50E10017EBD6 /* foodInfo.swift */,
+				CE6DD7CE1F9AAD620017EBD6 /* searchDatabase.swift */,
 			);
 			path = StructureData;
 			sourceTree = "<group>";
@@ -120,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6DD7CF1F9AAD620017EBD6 /* searchDatabase.swift in Sources */,
 				CEBC7F641F92C00A00CD17C5 /* main.swift in Sources */,
+				CE6DD7C81F9A50E10017EBD6 /* foodInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
